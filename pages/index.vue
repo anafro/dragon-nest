@@ -184,7 +184,7 @@ onMounted((): void => {
                     <img class="events__card-image" src="/images/event-2.jpg" alt="">
 
                     <p class="events__card-description">
-                        "Подземелье и драконы" и другие игры
+                        "Подземелья и драконы", бункер, караоке и другие развлечения
                     </p>
                 </a>
 
@@ -231,13 +231,16 @@ onMounted((): void => {
                 <div class="features__feature">
                     <img src="/images/dragon-with-a-circle.png" alt="dragon-with-a-circle" class="features__feature-image">
                     <h3 class="features__feature-name">
-                        Находимся в центре. Семёновская 9
+                        Находимся на первой речке. Хабаровская 27б.
                     </h3>
                 </div>
 
                 <div class="features__feature">
                     <img src="/images/dragon-nest-area.png" alt="dragon-nest-area" class="features__feature-image">
-                    <h3 class="features__feature-name">50 м2</h3>
+                    <h3 class="features__feature-name">
+                        150 м2. Три комнаты<br>
+                        До 40 посадочных мест.
+                    </h3>
                 </div>
 
                 <div class="features__feature">
@@ -247,7 +250,7 @@ onMounted((): void => {
 
                 <div class="features__feature">
                     <img src="/images/dragon-drinking-tea.png" alt="dragon-drinking-tea" class="features__feature-image">
-                    <h3 class="features__feature-name">Бесплатный чай</h3>
+                    <h3 class="features__feature-name">Вкуснейшие напитки</h3>
                 </div>
 
                 <div class="features__feature">
@@ -265,8 +268,8 @@ onMounted((): void => {
 
                     <h3 class="prices__card-heading">Будни</h3>
                     <p class="prices__card-description">
-                        1 мин = 2 руб<br/>
-                        max 300 руб
+                        1 час = 150 руб<br/>
+                        max 500 руб
                     </p>
 
                     <a href="https://t.me/gnezdo_ls" class="prices__card-button">Записаться</a>
@@ -277,28 +280,28 @@ onMounted((): void => {
 
                     <h3 class="prices__card-heading">Выходные</h3>
                     <p class="prices__card-description">
-                        1 мин = 3 руб<br/>
-                        max 500 руб
+                        1 час = 200 руб<br/>
+                        max 700 руб
                     </p>
 
                     <a href="https://t.me/gnezdo_ls" class="prices__card-button">Записаться</a>
                 </div>
 
                 <div class="prices__card">
-                    <h3 class="prices__card-heading">Аренда помещения</h3>
+                    <h3 class="prices__card-heading">Аренда комнат</h3>
                     <div class="prices__card-week-day-line">
                         <span class="prices__card-week-day">Будни</span>
-                        <span class="prices__card-week-day-price">1 час = 1300 руб</span>
+                        <span class="prices__card-week-day-price">1 час = 1500 руб</span>
                     </div>
 
                     <div class="prices__card-week-day-line">
                         <span class="prices__card-week-day">Выходные</span>
-                        <span class="prices__card-week-day-price">1 час = 1600 руб</span>
+                        <span class="prices__card-week-day-price">1 час = 1900 руб</span>
                     </div>
 
                     <div class="prices__card-week-day-line">
-                        <span class="prices__card-week-day">После 20:00</span>
-                        <span class="prices__card-week-day-price">1 час = 1900 руб</span>
+                        <span class="prices__card-week-day">После 00:00</span>
+                        <span class="prices__card-week-day-price">Дополнительные 3000 руб</span>
                     </div>
 
                     <a href="https://t.me/gnezdo_ls" class="prices__card-button">Записаться</a>
@@ -329,7 +332,7 @@ onMounted((): void => {
         </section>
 
         <section id="map">
-            <div id="map__map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/gnezdo_drakona/156951429804/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Гнездо Дракона</a><a href="https://yandex.ru/maps/75/vladivostok/category/anti_caf_/31370163603/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Антикафе во Владивостоке</a><a href="https://yandex.ru/maps/75/vladivostok/category/coworking/60934766081/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Коворкинг во Владивостоке</a><iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=131.882376%2C43.118998&mode=search&oid=156951429804&ol=biz&z=16.84" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;width:100%;height:100%;"></iframe></div>
+            <div id="map__map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/gnezdo_drakona/123961767884/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Гнездо Дракона</a><a href="https://yandex.ru/maps/75/vladivostok/category/anti_caf_/31370163603/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Антикафе во Владивостоке</a><a href="https://yandex.ru/maps/75/vladivostok/category/karaoke/19244809283/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Караоке-клуб во Владивостоке</a><iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=131.897927%2C43.135710&mode=search&oid=123961767884&ol=biz&z=16.62" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;width:100%;height:100%"></iframe></div>
         </section>
 
         <section id="feedback">
@@ -361,7 +364,7 @@ onMounted((): void => {
                 <div class="feedback__feedback">
                     <img src="/images/dragon-circle-kissing.png" alt="" class="feedback__feedback-image">
                     <p class="feedback__feedback-text">
-                        Суперские ребята, жаль правда, что места маловато, но зато настолок много - играй во что хочешь без ограничений. Мне это понравилось, и никто не нудил:)
+                        Очень хорошее место, большая коллекция настольных игр на любой вкус и любую компанию. Ребята часто проводят мероприятия на которые очень легко записаться (быстро отвечают в группе) и в общем крутая атмосфера и дружеское отношение к клиентам
                     </p>
                 </div>
             </div>
@@ -480,7 +483,6 @@ h2
     font-size: 2rem
     padding-inline: 1rem
     padding-block: 0.5rem
-    text-transform: lowercase
     font-weight: 100
 
 #photos
@@ -569,7 +571,8 @@ h2
 .prices__card
     background: $vine
     border-radius: 1rem
-    padding: 4rem
+    padding-block: 4rem
+    padding-inline: 2rem
     position: relative
     display: flex
     flex-direction: column
@@ -628,7 +631,7 @@ h2
     align-items: center
     justify-content: space-between
     font-size: 2rem
-    width: max(36ch, 50%)
+    width: max(48ch, 50%)
     margin-block-start: 1rem
 
     *
@@ -806,7 +809,7 @@ h2
         grid-column: span 1
 
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1325px)
     .prices__card-week-day-line
         flex-direction: column
         margin-block-start: 3rem
