@@ -231,15 +231,15 @@ onMounted((): void => {
                 <div class="features__feature">
                     <img src="/images/dragon-with-a-circle.png" alt="dragon-with-a-circle" class="features__feature-image">
                     <h3 class="features__feature-name">
-                        Находимся на первой речке. Хабаровская 27б.
+                        Находимся на первой речке. Железнодорожный переулок 3.
                     </h3>
                 </div>
 
                 <div class="features__feature">
                     <img src="/images/dragon-nest-area.png" alt="dragon-nest-area" class="features__feature-image">
                     <h3 class="features__feature-name">
-                        150 м2. Три комнаты<br>
-                        До 40 посадочных мест.
+                        20 м2. Уютная комната.<br>
+                        До 16 посадочных мест
                     </h3>
                 </div>
 
@@ -260,7 +260,7 @@ onMounted((): void => {
         </section>
 
         <section id="prices">
-            <h2 id="prices__heading">Запись на игры</h2>
+            <h2 id="prices__heading">Аренда залов</h2>
 
             <div id="prices__grid">
                 <div class="prices__card">
@@ -268,11 +268,10 @@ onMounted((): void => {
 
                     <h3 class="prices__card-heading">Будни</h3>
                     <p class="prices__card-description">
-                        1 час = 150 руб<br/>
-                        max 500 руб
+                        1 час = 700 руб
                     </p>
 
-                    <a href="https://t.me/gnezdo_ls" class="prices__card-button">Записаться</a>
+                    <a href="https://t.me/gnezdo_ls" class="prices__card-button">Арендовать</a>
                 </div>
 
                 <div class="prices__card">
@@ -280,31 +279,25 @@ onMounted((): void => {
 
                     <h3 class="prices__card-heading">Выходные</h3>
                     <p class="prices__card-description">
-                        1 час = 200 руб<br/>
-                        max 700 руб
+                        1 час = 500 руб
                     </p>
 
-                    <a href="https://t.me/gnezdo_ls" class="prices__card-button">Записаться</a>
+                    <a href="https://t.me/gnezdo_ls" class="prices__card-button">Арендовать</a>
                 </div>
 
                 <div class="prices__card">
-                    <h3 class="prices__card-heading">Аренда комнат</h3>
+                    <h3 class="prices__card-heading">Заказать ведущего</h3>
                     <div class="prices__card-week-day-line">
-                        <span class="prices__card-week-day">Будни</span>
-                        <span class="prices__card-week-day-price">1 час = 1500 руб</span>
+                        <span class="prices__card-week-day">Ведущий мафии</span>
+                        <span class="prices__card-week-day-price">1 человек = 700 руб</span>
                     </div>
 
                     <div class="prices__card-week-day-line">
-                        <span class="prices__card-week-day">Выходные</span>
-                        <span class="prices__card-week-day-price">1 час = 1900 руб</span>
+                        <span class="prices__card-week-day">Ведущий D&D</span>
+                        <span class="prices__card-week-day-price">1 человек = 1300 руб</span>
                     </div>
 
-                    <div class="prices__card-week-day-line">
-                        <span class="prices__card-week-day">После 00:00</span>
-                        <span class="prices__card-week-day-price">Дополнительные 3000 руб</span>
-                    </div>
-
-                    <a href="https://t.me/gnezdo_ls" class="prices__card-button">Записаться</a>
+                    <a href="https://t.me/gnezdo_ls" class="prices__card-button">Заказать</a>
                 </div>
             </div>
         </section>
@@ -332,7 +325,7 @@ onMounted((): void => {
         </section>
 
         <section id="map">
-            <div id="map__map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/gnezdo_drakona/123961767884/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Гнездо Дракона</a><a href="https://yandex.ru/maps/75/vladivostok/category/anti_caf_/31370163603/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Антикафе во Владивостоке</a><a href="https://yandex.ru/maps/75/vladivostok/category/karaoke/19244809283/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Караоке-клуб во Владивостоке</a><iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=131.897927%2C43.135710&mode=search&oid=123961767884&ol=biz&z=16.62" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;width:100%;height:100%"></iframe></div>
+            <div id="map__map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/gnezdo_drakona/142273186236/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Гнездо Дракона</a><a href="https://yandex.ru/maps/75/vladivostok/category/board_games/184107267/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Настольные и интеллектуальные игры во Владивостоке</a><a href="https://yandex.ru/maps/75/vladivostok/category/anti_caf_/31370163603/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:28px;">Антикафе во Владивостоке</a><iframe src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=131.920697%2C43.130923&mode=search&oid=142273186236&ol=biz&z=14.47" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;width:100%;height:100%;"></iframe></div>
         </section>
 
         <section id="feedback">
@@ -642,7 +635,8 @@ h2
     padding: 0.25em
     background: $chair
     border-radius: 0.5rem
-    width: 15ch
+    min-width: 15ch
+    width: 18ch
     text-align: center
     text-wrap: nowrap
 
